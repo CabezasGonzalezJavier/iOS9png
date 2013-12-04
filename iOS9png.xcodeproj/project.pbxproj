@@ -19,6 +19,10 @@
 		577357D3184FBD6000B3FCB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577357BB184FBD6000B3FCB7 /* UIKit.framework */; };
 		577357DB184FBD6000B3FCB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 577357D9184FBD6000B3FCB7 /* InfoPlist.strings */; };
 		577357DD184FBD6000B3FCB7 /* iOS9pngTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 577357DC184FBD6000B3FCB7 /* iOS9pngTests.m */; };
+		577357E7184FBF9B00B3FCB7 /* testButton.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 577357E6184FBF9B00B3FCB7 /* testButton.9.png */; };
+		577357EB184FBFE600B3FCB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577357E9184FBFE600B3FCB7 /* ViewController.m */; };
+		577357EC184FBFE600B3FCB7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577357EA184FBFE600B3FCB7 /* ViewController.xib */; };
+		577357EF184FC2D500B3FCB7 /* Class9path.m in Sources */ = {isa = PBXBuildFile; fileRef = 577357EE184FC2D500B3FCB7 /* Class9path.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		577357D8184FBD6000B3FCB7 /* iOS9pngTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS9pngTests-Info.plist"; sourceTree = "<group>"; };
 		577357DA184FBD6000B3FCB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		577357DC184FBD6000B3FCB7 /* iOS9pngTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS9pngTests.m; sourceTree = "<group>"; };
+		577357E6184FBF9B00B3FCB7 /* testButton.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testButton.9.png; sourceTree = "<group>"; };
+		577357E8184FBFE600B3FCB7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		577357E9184FBFE600B3FCB7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		577357EA184FBFE600B3FCB7 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		577357ED184FC2D500B3FCB7 /* Class9path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Class9path.h; sourceTree = "<group>"; };
+		577357EE184FC2D500B3FCB7 /* Class9path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Class9path.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +117,16 @@
 		577357BD184FBD6000B3FCB7 /* iOS9png */ = {
 			isa = PBXGroup;
 			children = (
+				577357E6184FBF9B00B3FCB7 /* testButton.9.png */,
 				577357C6184FBD6000B3FCB7 /* AppDelegate.h */,
 				577357C7184FBD6000B3FCB7 /* AppDelegate.m */,
 				577357C9184FBD6000B3FCB7 /* Images.xcassets */,
 				577357BE184FBD6000B3FCB7 /* Supporting Files */,
+				577357E8184FBFE600B3FCB7 /* ViewController.h */,
+				577357E9184FBFE600B3FCB7 /* ViewController.m */,
+				577357EA184FBFE600B3FCB7 /* ViewController.xib */,
+				577357ED184FC2D500B3FCB7 /* Class9path.h */,
+				577357EE184FC2D500B3FCB7 /* Class9path.m */,
 			);
 			path = iOS9png;
 			sourceTree = "<group>";
@@ -220,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				577357C2184FBD6000B3FCB7 /* InfoPlist.strings in Resources */,
+				577357E7184FBF9B00B3FCB7 /* testButton.9.png in Resources */,
+				577357EC184FBFE600B3FCB7 /* ViewController.xib in Resources */,
 				577357CA184FBD6000B3FCB7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +257,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				577357EB184FBFE600B3FCB7 /* ViewController.m in Sources */,
 				577357C8184FBD6000B3FCB7 /* AppDelegate.m in Sources */,
 				577357C4184FBD6000B3FCB7 /* main.m in Sources */,
+				577357EF184FC2D500B3FCB7 /* Class9path.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
